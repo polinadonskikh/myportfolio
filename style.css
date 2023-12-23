@@ -1,0 +1,119 @@
+html {
+   /* margin: 0px;
+   height: 100%;
+   width: 100%; */
+}
+
+body {
+   /* margin: 0px;
+   min-height: 100%;
+   width: 100%; */
+   background-color: #FEFAE0;
+}
+
+
+
+.container-fluid{
+  background-color: #A9B388;
+  font-family: 'Arvo', serif;
+  font-size: 2rem;
+}
+
+.navbar{
+  --bs-navbar-padding-x: none;
+  --bs-navbar-padding-y: none;
+  --bs-navbar-toggler-font-size: 3rem;
+  --bs-navbar-toggler-border-color: none;
+}
+
+
+div a:hover{
+    text-decoration: underline #5F6F52;
+  }
+
+  .btn{
+     border: none;
+     font-size: 2rem;
+  }
+  .btn:focus{
+     border: none;
+     outline: none;
+  }
+
+  .dropdown:hover{
+  text-decoration: underline #5F6F52;
+
+  }
+
+.dropdown {
+  display: flex;
+  font-family: 'Arvo', serif;
+  justify-content:flex-start;
+  flex-grow: 1;
+
+}
+
+.dropdown-menu{
+  --bs-dropdown-bg: #FEFAE0;
+}
+
+hr {
+  border-color: #5F6F52;
+    border-top: 0.07rem solid;
+    border-bottom: 0.3rem solid;
+    height: 0.6rem;
+
+}
+
+.heroabout{
+  background-color: #B99470;
+  font-family: 'Arvo', serif;
+  padding-bottom: 0;
+}
+
+.heroabout .lead {
+  font-size: 1.25rem; /* Default font size */
+}
+
+@media only screen and (max-width: 767px) {
+  .heroabout .lead {
+    font-size: 1.5rem; /* Increase font size for mobile devices */
+    /* You can adjust the font size to your preference */
+  }
+}
+
+
+
+
+li{
+  font-family: 'Arvo', serif;
+
+}
+
+.skillsfeatures {
+  font-family: 'Arvo', serif;
+}
+
+.languages{
+  font-family: 'Arvo', serif;
+}
+
+.card {
+  background-color: #B99470; /* Change this color to your preferred color */
+  color: black; /* Set text color to contrast with the background */
+  border-color: black;
+}
+
+.experience{
+  font-family: 'Arvo', serif;
+}
+
+.accordion{
+
+  --bs-accordion-btn-bg: #A9B388 ;
+  --bs-accordion-active-bg:#5F6F52;
+  --bs-accordion-active-color:#FEFAE0;
+  --bs-accordion-btn-focus-box-shadow:none;
+  --bs-accordion-bg:#FEFAE0;
+  --bs-accordion-border-color:black;
+}
